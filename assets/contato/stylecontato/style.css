@@ -13,13 +13,18 @@ main {
     justify-content: center;
 }
 form {
+    background-color: #121E26;
     width: 80%;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    border: none;
+    border-radius: 5px;
 }
 h1{
     align-self: center;
+    padding: 10px;
+    border: solid 2px #94C6F2;
+    border-radius: 10px 40px 40px 10px;
 }
 h3{
    padding: 25px;
@@ -37,12 +42,42 @@ input{
     width: 60%;
     padding-bottom: 100px;
 }
+span{
+    opacity: 50%;
+}
 form [type='submit'] {
     border: none;
     border-radius: 7px;
     padding: 5px;
     width: 15%;
+    background-color: #8C8C8C;
+    color: black;
+    font-weight: 900;
 }
 form [type='submit']:hover{
     cursor: pointer;
+    background-color: #055902;
+    color: white;
+    transition: 0.3s all;
+    
+}
+a{
+    text-decoration: none;    
+    color: white;
+}
+#vot{
+    background-color: #055902;
+    margin: 10px 0px 0px 10px;
+}
+#vot:hover{
+    background-color: #8C8C8C;
+    transition: 0.3s all;
+}
+a:hover{
+    color: #055902;
+
+}
+input:hover{
+    transition: 0.3s all;
+    background-color: #ccc;
 }
