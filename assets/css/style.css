@@ -35,6 +35,8 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+
+    
 }
 h2{
     font-size: 56px;
@@ -91,4 +93,34 @@ input{
     border-radius: 20px;
     border: none;
     font-size: 15px;
+}
+
+footer img{
+    max-height: 48px;
+    max-width: 48px;
+    margin-left: auto;
+    padding: 15px;
+    cursor: pointer;
+}
+footer{
+    background-color: rgba(5, 5, 5, 0.185);;
+    display: flex;
+    flex-flow: wrap;
+    margin: auto;
+    width: auto;
+}
+p{
+    display: inline;
+    padding: 15px;
+    margin: auto;
+    align-self: start;
+}
+.term{
+    text-decoration: underline 2px white;
+    cursor: pointer;
+}
+.copy{
+    color: rgba(255, 250, 250, 0.788);
+    font-weight: 900;
+    font-style: italic;
 }

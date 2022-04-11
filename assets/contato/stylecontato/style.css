@@ -81,3 +81,8 @@ input:hover{
     transition: 0.3s all;
     background-color: #ccc;
 }
+footer{
+    display: flex;
+    background-color: #8C8C8C;
+
+}

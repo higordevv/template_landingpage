@@ -20,4 +20,13 @@
     ul{
         text-align: center;
     }
+    footer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    footer img {
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+    }
 }
